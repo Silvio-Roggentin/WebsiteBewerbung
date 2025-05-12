@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Ziel-JavaScript-Version (modern und gut unterstützt)
+    "module": "ES6",                        // Modulsystem (modern)
+    "strict": true,                         // Aktiviert alle strengen Typüberprüfungsoptionen
+    "esModuleInterop": true,                // Ermöglicht bessere Interoperabilität mit CommonJS-Modulen
+    "skipLibCheck": true,                   // Überspringt die Typüberprüfung von Deklarationsdateien
+    "forceConsistentCasingInFileNames": true, // Stellt sicher, dass Dateinamen konsistent geschrieben werden
+    "outDir": "./dist",                     // Ausgabeverzeichnis für kompilierte JS-Dateien
+    "rootDir": "./src",                     // Wurzelverzeichnis der TS-Quelldateien
+    // "sourceMap": true,                   // Erzeugt Source Maps für Debugging (optional, aber nützlich)
+    "noImplicitAny": true,                // Fehler, wenn Typen nicht explizit oder implizit 'any' sind
+    "moduleResolution": "node"              // Wie Module aufgelöst werden
+  },
+  "include": [
+    "src/**/*"                              // Welche Dateien kompiliert werden sollen
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"                          // Testdateien ausschließen (falls vorhanden)
+  ]
+}
