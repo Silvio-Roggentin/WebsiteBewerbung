@@ -89,7 +89,7 @@ header ul li a.active {
 #hero .hero-text {
     flex: 1;
     padding-right: 40px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #hero h1 {
