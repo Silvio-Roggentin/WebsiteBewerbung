@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-    <nav class="container">
+    <nav class="container" className=".max-w-xl">
         <div class="logo">Silvio Roggentin</div>
         <ul>
             <li><a href="#ueber-mich">Über mich</a></li>
@@ -24,7 +24,7 @@
     <section id="hero" class="container">
         <div class="hero-text">
             <h1>Hallo, ich bin <span id="hero-name">Silvio</span>!</h1>
-            <p>Angehender Masterstudent der Informatik mit Leidenschaft für Anwendungsentwicklung.</p>
+            <p>Angehender Entwickler mit Leidenschaft für Anwendungsentwicklung</p>
             <a href="#projekte" class="cta-button">Meine Projekte ansehen</a>
         </div>
         <div class="hero-image">
@@ -36,9 +36,9 @@
         <h2>Über mich</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Ich bin 22 Jahre alt und habe kürzlich meinen Bachelor in Games Engineering erfolgreich abgeschlossen. Aktuell befinde ich mich im ersten Semester meines Masterstudiums der Informatik.</p>
+                <p>Ich bin 22 Jahre alt und habe kürzlich meinen Bachelor in Games Engineering erfolgreich abgeschlossen. Aktuell arbeite ich als Backend-Entwickler mit dem Quarkus-Framework.</p>
                 <p>Mich einzubringen und bedeutungsvolle Arbeit zu leisten ist mir wichtig. Ich bin eine sehr kommunikative und aufgeschlossene Person, die gerne im Team arbeitet und neue Herausforderungen mit Enthusiasmus angeht.</p>
-                <p>Ich bin stets motiviert, Neues zu lernen und aktiv an Projekten mitzuwirken. Die Möglichkeit, als Werkstudent bei Ihnen erste professionelle Erfahrungen zu sammeln und mein Wissen praktisch anzuwenden, würde mir viel bedeuten.</p>
+                <p>Ich bin stets motiviert, Neues zu lernen und aktiv an Projekten mitzuwirken. Die Möglichkeit, mich sinnvoll einzubringen und bedeutungsvolle Arbeit zu leisten, ist mir wichtig´.</p>
             </div>
             <div class="about-image">
                 <img src="silvio.jpg">
@@ -49,25 +49,41 @@
     <section id="faehigkeiten" class="container section-padding">
         <h2>Fähigkeiten</h2>
         <div class="skills-grid">
+
+            <div class="skill-card">
+                <img src="csharp.png" alt="C# Icon" class="skill-icon">
+                <h3>C#</h3>
+                <p>Jahrelange Programmierung von C# in Unity</p>
+            </div>
+            <div class="skill-card">
+                <img src="java.png" alt="Java Icon" class="skill-icon">
+                <h3>Java</h3>
+                <p>Hervorragende Kenntnisse</p>
+            </div>
             <div class="skill-card">
                 <img src="typescript.png" alt="TypeScript Icon" class="skill-icon">
                 <h3>TypeScript</h3>
                 <p>Solide Grundlagen und erste Erfahrungen</p>
             </div>
             <div class="skill-card">
-                <img src="csharp.png" alt="C# Icon" class="skill-icon">
-                <h3>C#</h3>
-                <p>Erfahrung durch Studium und Spieleentwicklungsprojekte (z.B. mit Unity).</p>
-            </div>
-            <div class="skill-card">
-                <img src="java.png" alt="Java Icon" class="skill-icon">
-                <h3>Java</h3>
-                <p>Gute Kenntnisse aus Universitätsprojekten</p>
-            </div>
-            <div class="skill-card">
                 <img src="git.png" alt="Git Icon" class="skill-icon">
                 <h3>Git</h3>
-                <p>Sicherer Umgang mit Versionskontrolle für kollaborative Projekte.</p>
+                <p>Sicherer Umgang mit Versionskontrolle für kollaborative Projekte</p>
+            </div>
+            <div class="skill-card">
+                <img src="sql.png" alt="SQL Icon" class="skill-icon">
+                <h3>SQL</h3>
+                <p>Tiefgreifende SQL-Kenntnisse für effiziente Datenanalyse</p>
+            </div>
+            <div class="skill-card">
+                <img src="scrum.png" alt="Scrum Icon" class="skill-icon">
+                <h3>Scrum</h3>
+                <p>Verständnis für agile Softwareentwicklung</p>
+            </div>
+            <div class="skill-card">
+                <img src="jira.png" alt="Jira Icon" class="skill-icon">
+                <h3>Jira Kanban</h3>
+                <p>Anwendung von Kanban in Jira, um einen organisierten Arbeitsfluss zu gewährleisten</p>
             </div>
             <div class="skill-card">
                 <img src="arch.png" alt="Linux Icon" class="skill-icon">
@@ -77,7 +93,7 @@
             <div class="skill-card">
                 <img src="speech.png" alt="Kommunikation Icon" class="skill-icon">
                 <h3>Kommunikation</h3>
-                <p>Offen, gesprächig und fähig zur Selbstorganisation und Abstimmung im Team.</p>
+                <p>Offen, gesprächig und fähig zur Selbstorganisation und Abstimmung im Team</p>
             </div>
         </div>
     </section>
@@ -121,7 +137,5 @@
         <p>Silvio Roggentin 2025</p>
     </div>
 </footer>
-
-<script src="dist/script.js"></script>
 </body>
 </html>
